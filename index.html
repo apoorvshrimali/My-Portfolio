@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>Portfolio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Blogs</a></li>
+                
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, My Name Is</div>
+                <div class="text-2">Apoorv Shrimali</div>
+                <div class="text-3">And I'm A <span class="typing"></span></div>
+                <img src="../Portfolio New/assets/Vicky.jpeg" alt="">
+                <a href="#">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="../Portfolio New/assets/Vicky.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Apoorv and I'm a <span class="typing-2"></span></div>
+                    <p>I’m A Front End Developer, And I Learned To Code Through A Bootcamp. After Spending Six Days A Week, Twelve Or More Hours A Day, For Five Months Learning Front End Development, UI design, And UX Design, I Was Ready To Graduate And Start Working. But There Was One Thing Left To Do In Order To Complete My Program — Build A Portfolio. At That Time, I Was Fighting Burnout And A Substantial Inclination To Binge-Watch Every Show I Had Put On Pause For Five Months. Now, Five Months Later, I Could Not Be More Grateful That I Took The Time To Build A Portfolio To Showcase My Projects And My Blogs.
+
+                    </p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Blogs</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="https://miro.medium.com/max/1400/1*VjWJqiAXy8A9EFEAO-cY3w.jpeg" alt="">
+                        <div class="text">Understanding Axios!!</div>
+                        <p>A Blog On How Axios Works.</p>
+                        <a lass="project-view" href="https://apoorvshrimali.hashnode.dev/understanding-axios">View Blog.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="data:image/png;base64,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" alt="">
+                        <div class="text">Flexbox In CSS.</div>
+                        <p>How Flexbox Works In CSS.</p>
+                        <a class="project-view" href="https://apoorvshrimali.hashnode.dev/a-complete-guide-to-flexbox">View Blog.</a>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="https://blog.alexdevero.com/wp-content/uploads/2021/04/26-04-21-react-usestate-hook-in-action-blog.jpg" alt="">
+                            <div class="text">A Noob Guide To UseState!</div>
+                            <p>A Detailed Guide To UseState()</p>
+                            <a class="project-view" href="https://apoorvshrimali.hashnode.dev/a-noob-guide-to-usestate">View Blog.</a>
+                            
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://apoorvshrimali.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1646924690481%2FFiQwCWyti.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75" alt="">
+                        <div class="text">Var v/s Let v/s Const.</div>
+                        <p>Detailed Description on Var Let Conts</p>
+                        <a class="project-view" href="https://apoorvshrimali.hashnode.dev/var-let-const">View Blog.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://apoorvshrimali.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1633367226248%2FqhzFpCRRt.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75" alt="">
+                        <div class="text">What Are API?</div>
+                        <p>Blog on API's.</p>
+                        <a class="project-view" href="https://apoorvshrimali.hashnode.dev/what-are-apis">View Blog.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i.ytimg.com/vi/uOltiFI00rU/maxresdefault.jpg" alt="">
+                        <div class="text">CSS Cascading Style Sheet.</div>
+                        <p>Learn About CSS and its Elements.</p>
+                        <a class="project-view" href="https://apoorvshrimali.hashnode.dev/css-cascading-style-sheet">View Blog.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://apoorvshrimali.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1633367746719%2FffXJc_rPm.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75" alt="">
+                        <div class="text">My Coding Journey.</div>
+                        <p>My Coding Journey.</p>
+                        <a class="project-view" href="https://apoorvshrimali.hashnode.dev/my-coding-journey">View Blog.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/02/10194010/Feb-10-palindrome-thumbnail.png" alt="">
+                        <div class="text">Palindrome Project.</div>
+                        <p>An Intresting Way To Find Your Birthday Is Palindrome OR Not??</p>
+                        <a lass="project-view" href="https://birthday-palindrome-apoorvshrimali.netlify.app">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://media.istockphoto.com/photos/great-sneaker-picture-id1079117394?k=20&m=1079117394&s=612x612&w=0&h=rUuc5v_-8uckfumKljOD0RkgfPtRWcV0c8n2MI1BS6w=" alt="">
+                        <div class="text">SneakerHead.</div>
+                        <p>E-Commerce Website For Sneakers.</p>
+                        <a class="project-view" href="https://tiny-muffin-db7cbe.netlify.app">View Project.</a>
+                        
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <img src="https://media.istockphoto.com/photos/shiny-neon-triangle-frame-light-geometric-shapes-3d-render-picture-id1328397188?b=1&k=20&m=1328397188&s=170667a&w=0&h=H4b9N509xdMZxssj2kZmu5UhNBxmX7ursCEqMVAVktc=" alt="">
+                            <div class="text">Fun With Traingle!!</div>
+                            <p>A Fun Quiz App Related To Triangles!!</p>
+                            <a class="project-view" href="https://triangles-quiz-apoorvshrimali.netlify.app
+
+                            ">View Project.</a>
+                            
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <div class="text">Groot Language Translator </div>
+                        <p>A Fun Website To Translate The Language In Groot Language!!</p>
+                        <a class="project-view" href="https://silly-creponne-530ab2.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfNSrWyPmQeeryN9rzDeAza8rUtde2Rn5wg&usqp=CAU" alt="">
+                        <div class="text">Stock Calculator</div>
+                        <p>Calculate Your Profit And Loss In Stock Trading.</p>
+                        <a class="project-view" href="https://melodious-pony-6439df.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://5.imimg.com/data5/GC/QU/MY-1549591/pos-cash-register-500x500.jpg" alt="">
+                        <div class="text">Cash Register</div>
+                        <p>A Cash Register Application To Check The Amount.</p>
+                        <a class="project-view" href="https://illustrious-cranachan-d6d5cb.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/originals/25/21/d6/2521d66145c91e8e49e20b9649e7d4a7.jpg" alt="">
+                        <div class="text">Minion Translator</div>
+                        <p>A Fun Website To Learn Minion Language.</p>
+                        <a class="project-view" href="https://benevolent-jalebi-cb2199.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/originals/63/52/b5/6352b5c0e86008f3df1438da2dcdbd9e.jpg" alt="">
+                        <div class="text">Is Your Birthday Lucky?</div>
+                        <p>Find A Funny Way To Know That Is Birthday Is Lucky??</p>
+                        <a class="project-view" href="https://famous-treacle-43566f.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://images.ctfassets.net/3uw9cov4u60w/75XI3tSLpv6MmKx3Mv7rNG/b64674c0876a53f6dda95d46d1d6a958/image.jpg" alt="">
+                        <div class="text">Travel Recomendation</div>
+                        <p>Planning To Travel Have Look At Latest Travel Recomendation</p>
+                        <a class="project-view" href="https://idyllic-syrniki-02791c.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://i.pinimg.com/originals/c6/79/51/c67951296c366657932da41ce2027235.jpg" alt="">
+                        <div class="text">To-Do-List</div>
+                        <p>A To-Do-List Application.</p>
+                        <a class="project-view" href="https://idyllic-syrniki-02791c.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI" alt="">
+                        <div class="text">Netflix-Clone</div>
+                        <p>A Clone Of Netflix</p>
+                        <a class="project-view" href="https://idyllic-syrniki-02791c.netlify.app/">View Project.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Please Feel To Conatct Me On Given Details.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Apoorv Shrimali</div>
+                               
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Indore , India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">apoorv.shrimali@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/apoorv-shrimali-117106135/">Apoorv Shrimali</a> | <span class="far fa-copyright"></span> 2022 All Rights Reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
